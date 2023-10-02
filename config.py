@@ -10,16 +10,16 @@ load_dotenv("config.env")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", "2040"))
-API_HASH = os.environ.get("API_HASH", "b18441a1ff607e10a989891a5462e627")
+API_ID = int(os.environ.get("API_ID", "26155203"))
+API_HASH = os.environ.get("API_HASH", "d68547f2c4cc5169b19cb8528783f97a")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", ""))
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001885467093"))
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://uboyukgn:pf0vkucXSm7CYG5ZYuI5iWid31mPRVrz@otto.db.elephantsql.com/uboyukgn")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "0"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001832381134"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001601485186"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
